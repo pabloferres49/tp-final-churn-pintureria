@@ -86,8 +86,8 @@ En el punto de operación (umbral 0,68, fijado en validación para capturar al m
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/<TU_USUARIO>/<NOMBRE_REPO>.git
-cd <NOMBRE_REPO>
+git clone https://github.com/pabloferres49/tp-final-churn-pintureria.git
+cd tp-final-churn-pintureria
 
 # 2. Crear el entorno e instalar dependencias
 python -m venv .venv
@@ -112,8 +112,8 @@ La ejecución completa tarda unos 2 minutos en una notebook común. El notebook:
 ### Ejecutar en Google Colab
 
 ```python
-!git clone https://github.com/<TU_USUARIO>/<NOMBRE_REPO>.git
-%cd <NOMBRE_REPO>
+!git clone https://github.com/pabloferres49/tp-final-churn-pintureria.git
+%cd tp-final-churn-pintureria
 !pip install -q xgboost==3.4.1 shap==0.54.1
 ```
 Después, abrí `notebooks/TP_Final_Churn_Pintureria.ipynb` o ejecutá su contenido. El notebook detecta solo la carpeta raíz del repositorio.
