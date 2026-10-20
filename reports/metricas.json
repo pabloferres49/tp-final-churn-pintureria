@@ -1,0 +1,58 @@
+{
+  "modelo_seleccionado": "XGBoost",
+  "mejores_hiperparametros": {
+    "learning_rate": 0.03,
+    "max_depth": 2,
+    "min_child_weight": 5,
+    "n_estimators": 100,
+    "subsample": 1.0
+  },
+  "umbral": 0.68,
+  "roc_auc_cv": 0.8604,
+  "test": {
+    "ROC_AUC": 0.8623,
+    "PR_AUC": 0.9342,
+    "Precision": 0.8958,
+    "Recall": 0.8431,
+    "F1": 0.8687
+  },
+  "test_regla_recencia": {
+    "ROC_AUC": 0.8207,
+    "PR_AUC": 0.9168,
+    "Precision": 0.8645,
+    "Recall": 0.8603,
+    "F1": 0.8624
+  },
+  "comparacion": [
+    {
+      "Modelo": "Dummy",
+      "ROC_AUC_CV": 0.5,
+      "ROC_AUC_test": 0.5,
+      "PR_AUC_test": 0.7473
+    },
+    {
+      "Modelo": "Regla recencia",
+      "ROC_AUC_CV": 0.8255,
+      "ROC_AUC_test": 0.8207,
+      "PR_AUC_test": 0.9168
+    },
+    {
+      "Modelo": "Regresión logística",
+      "ROC_AUC_CV": 0.8555,
+      "ROC_AUC_test": 0.8518,
+      "PR_AUC_test": 0.9289
+    },
+    {
+      "Modelo": "Random Forest",
+      "ROC_AUC_CV": 0.86,
+      "ROC_AUC_test": 0.8574,
+      "PR_AUC_test": 0.9344
+    },
+    {
+      "Modelo": "XGBoost",
+      "ROC_AUC_CV": 0.8604,
+      "ROC_AUC_test": 0.8623,
+      "PR_AUC_test": 0.9342
+    }
+  ]
+}
